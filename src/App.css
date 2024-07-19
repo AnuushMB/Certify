@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+:focus,:active,::before,::after{
+  outline: none;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+a{
+  color:#111;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  
+}
+
+.container{
+  height: 100vh;
+  width:80%;
+  margin: auto;
+  margin-top: 1rem;  
+}
+
+main{
+  display: flex;
+}
+
+main section{
+  flex:.7;
+}
+aside{
+  flex:.3;
+
+
+  height: 30rem;
+  overflow-y:scroll;
+}
+nav{
+  padding:1rem 0rem;
+}
+.text_blue{
+  color:#007BFF;
+}
+.button_blue{
+  color:white;
+  padding:1rem 2rem;
+  background-color:#007BFF;
+  border-radius:5px;
+}
+.delete{
+  color:#ebebeb;
+}
+ul{
+  display: flex;
+  border-bottom: 1px solid #ebebeb;
+}
+li{
+  flex: 1;
+  padding: 1rem;
+}
+.btn_delete{
+
+  color:#777;
+  cursor: pointer;
+}
+.btn_delete:hover{
+  color:red;
+}
+
+
+main{
+  display: flex;
+  width: 90%;
+  margin:auto;
+}
+main section{
+  flex:1;
+}
+main .text article{
+
+width: 30rem;
+
+padding:3rem;
+}
+
+main .text h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 4.5rem;
+}
+main .text p{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
+}
+
+main section img{
+
+  width:100%;  
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout{
+  float: right;
+  margin:1rem;
+  background: none;
+  border:none;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.myFile{
+  width:10rem;
+  background-color:#fbfbfb;
+  text-align: center;
+  padding:1rem;
+  margin:1rem;
+  display: inline-block;
+}
+
+.myFile img{
+  width:4rem;
+}
+
+.myFile .info *{
+  margin:.5rem;
+}
+
+.logs *{
+  margin:1rem 0rem;
+}
+
+.log{
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem
+
+
+}
+
+.filepond--root,
+.filepond--root .filepond--drop-label {
+  height: 300px;
+}
